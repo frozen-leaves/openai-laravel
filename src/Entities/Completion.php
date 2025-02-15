@@ -22,7 +22,7 @@ class Completion extends AbstractEntity
 
     public function getResponse(): ?string
     {
-        $choice = $this->choices->first();
+        $choice = $this->choices->toCollection()->first();
 
         if ($choice instanceof CompletionChoice) {
             return $choice->message->content;
