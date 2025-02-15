@@ -1,0 +1,22 @@
+{
+    "name": "frozen-leaves/openai-laravel",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "FrozenLeaves\\OpenAILaravel\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jack Harrison",
+            "email": "jack.c.harrison@outlook.com"
+        }
+    ],
+    "require": {
+        "php": "^8.3",
+        "frozen-leaves/support": "^0.0.3",
+        "spatie/laravel-data": "^4.0",
+        "illuminate/http": "^11.42"
+    }
+}
